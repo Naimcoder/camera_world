@@ -390,7 +390,7 @@ body {
      .main_img img{
         width: 100%;
      }
-     .banner_left {
+     .banner_left{
           width: 100%;
      }
 
@@ -400,28 +400,28 @@ body {
 
      .banner_text p {
           font-size: 15px;
+          
      }
 
      .logos {
           flex-wrap: wrap;
           justify-content: center;
-          align-items: center;
-          gap: 40px;
+          gap: 20px;
 
      }
 
-     .blog_img img {
-          width: 80%;
-     }
 
      .blog {
           grid-template-columns: repeat(1, 1fr);
      }
-
+  
      .blog-iteam {
           width: 90%;
+          margin: 0 auto;
      }
-
+      .blog_rating i{
+          font-size: 12px;
+      }
      .feature {
           flex-direction: column-reverse;
      }
